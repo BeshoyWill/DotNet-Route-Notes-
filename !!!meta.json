@@ -1,0 +1,394 @@
+{
+	"formatVersion": 2,
+	"appVersion": "0.60.4",
+	"files": [
+		{
+			"isClone": false,
+			"noteId": "Tjj14vhYG4Am",
+			"notePath": [
+				"Tjj14vhYG4Am"
+			],
+			"title": "ASP.NET Overview (Route Course)",
+			"notePosition": 30,
+			"prefix": null,
+			"isExpanded": true,
+			"type": "text",
+			"mime": "text/html",
+			"attributes": [],
+			"format": "html",
+			"dirFileName": "ASP.NET Overview (Route Course)",
+			"children": [
+				{
+					"isClone": false,
+					"noteId": "fQ0A4gsGNAFg",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"fQ0A4gsGNAFg"
+					],
+					"title": "Section (1)",
+					"notePosition": 20,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section (1)",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "TawYFwGUMo15",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"fQ0A4gsGNAFg",
+								"TawYFwGUMo15"
+							],
+							"title": "Screenshot 2025-03-16 034940.png",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "image",
+							"mime": "image/jpg",
+							"attributes": [
+								{
+									"type": "label",
+									"name": "originalFileName",
+									"value": "Screenshot 2025-03-16 034940.png",
+									"isInheritable": false,
+									"position": 1000
+								}
+							],
+							"dataFileName": "Screenshot 2025-03-16 034940.p"
+						},
+						{
+							"isClone": false,
+							"noteId": "5V3LIfShNP3o",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"fQ0A4gsGNAFg",
+								"5V3LIfShNP3o"
+							],
+							"title": "What is ASP.NET",
+							"notePosition": 20,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "What is ASP.NET.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "yzCs5C3hgQYZ",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"yzCs5C3hgQYZ"
+					],
+					"title": "Section (2)",
+					"notePosition": 30,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section (2)",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "trbIcPO23fNL",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"yzCs5C3hgQYZ",
+								"trbIcPO23fNL"
+							],
+							"title": "ASP.NET BLAZOR",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "ASP.NET BLAZOR.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "q74VGcbeOnvA",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"q74VGcbeOnvA"
+					],
+					"title": "Section (3)",
+					"notePosition": 40,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section (3)",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "vWab2bxVCmCz",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"q74VGcbeOnvA",
+								"vWab2bxVCmCz"
+							],
+							"title": "What is MVC (Model View Controller)",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "What is MVC (Model View Contro.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "0lDuB2uHMjoo",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"0lDuB2uHMjoo"
+					],
+					"title": "Section (4)",
+					"notePosition": 50,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section (4)",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "NWGyiZzWfD38",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"0lDuB2uHMjoo",
+								"NWGyiZzWfD38"
+							],
+							"title": "Http VS Https",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Http VS Https.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "UuCQhg1aaqWF",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"UuCQhg1aaqWF"
+					],
+					"title": "Section 5",
+					"notePosition": 60,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section 5",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "mnelJC1GAfcS",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"UuCQhg1aaqWF",
+								"mnelJC1GAfcS"
+							],
+							"title": "What is URL",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "What is URL.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "IV7ZRSlrzZ3a",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"IV7ZRSlrzZ3a"
+					],
+					"title": "Section 6",
+					"notePosition": 70,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section 6",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "iLzH7jQqJgYc",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"IV7ZRSlrzZ3a",
+								"iLzH7jQqJgYc"
+							],
+							"title": "Physical Server VS Virtual Server",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Physical Server VS Virtual Ser.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "6wEeuRCKzTnK",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"6wEeuRCKzTnK"
+					],
+					"title": "Section 7",
+					"notePosition": 80,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section 7",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "36DybTihVMSU",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"6wEeuRCKzTnK",
+								"36DybTihVMSU"
+							],
+							"title": "Http Messages",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Http Messages.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "RnUXVewl8pwT",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"RnUXVewl8pwT"
+					],
+					"title": "Section 8",
+					"notePosition": 90,
+					"prefix": null,
+					"isExpanded": false,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section 8",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "iep6ZrmFheHJ",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"RnUXVewl8pwT",
+								"iep6ZrmFheHJ"
+							],
+							"title": "Project Structure",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Project Structure.html"
+						}
+					]
+				},
+				{
+					"isClone": false,
+					"noteId": "pkiGbQrSZNcD",
+					"notePath": [
+						"Tjj14vhYG4Am",
+						"pkiGbQrSZNcD"
+					],
+					"title": "Section 9",
+					"notePosition": 100,
+					"prefix": null,
+					"isExpanded": true,
+					"type": "text",
+					"mime": "text/html",
+					"attributes": [],
+					"format": "html",
+					"dirFileName": "Section 9",
+					"children": [
+						{
+							"isClone": false,
+							"noteId": "bf8yKwCRoqdz",
+							"notePath": [
+								"Tjj14vhYG4Am",
+								"pkiGbQrSZNcD",
+								"bf8yKwCRoqdz"
+							],
+							"title": "Internal VS External Web Servers",
+							"notePosition": 10,
+							"prefix": null,
+							"isExpanded": false,
+							"type": "text",
+							"mime": "text/html",
+							"attributes": [],
+							"format": "html",
+							"dataFileName": "Internal VS External Web Serve.html"
+						}
+					]
+				}
+			]
+		},
+		{
+			"noImport": true,
+			"dataFileName": "navigation.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "index.html"
+		},
+		{
+			"noImport": true,
+			"dataFileName": "style.css"
+		}
+	]
+}

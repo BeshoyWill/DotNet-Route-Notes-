@@ -1,0 +1,58 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Project Structure</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Project Structure</h1>
+
+      <div class="ck-content">
+        <h3>🔹 <strong>Project Structure</strong></h3>
+        <p>A well-organized project structure improves <strong>maintainability, scalability, and code readability</strong>.
+          Below is a common structure for an <strong>ASP.NET Core MVC or Blazor project</strong>:</p>
+        <p>&nbsp;</p>
+        <h4>✅ <strong>1. Root Directory</strong></h4>
+        <ul>
+          <li><code>wwwroot/</code> – Contains <strong>static files</strong> (CSS, JavaScript,
+            images).</li>
+          <li><code>appsettings.json</code> – Stores <strong>configuration settings</strong> (e.g.,
+            database connection, logging).</li>
+          <li><code>Program.cs</code> – Entry point for the application, setting up middleware
+            and services.</li>
+          <li><code>Startup.cs</code> (older versions) – Configures services and request
+            pipeline.</li>
+        </ul>
+        <p>&nbsp;</p>
+        <h4>✅ <strong>2. Core Folders</strong></h4>
+        <ul>
+          <li><code>Controllers/</code> – Contains <strong>controller classes</strong> in
+            MVC projects, handling <strong>user requests</strong> and interacting with
+            the model.</li>
+          <li><code>Models/</code> – Defines <strong>data structures</strong> and business
+            logic.</li>
+          <li><code>Views/</code> – Stores <strong>Razor views</strong> (UI templates)
+            for rendering pages in MVC.</li>
+          <li><code>Pages/</code> – Used in <strong>Blazor applications</strong> for component-based
+            development.</li>
+        </ul>
+        <p>&nbsp;</p>
+        <h4>✅ <strong>3. Additional Directories</strong></h4>
+        <ul>
+          <li><code>Services/</code> – Custom services for <strong>business logic</strong> and
+            API calls.</li>
+          <li><code>Data/</code> – Database context and <strong>Entity Framework models</strong>.</li>
+          <li><code>Components/</code> – Used in Blazor for <strong>UI components</strong>.</li>
+          <li><code>Migrations/</code> – Stores <strong>Entity Framework database migrations</strong>.</li>
+          <li><code>Middleware/</code> – Custom <strong>request processing logic</strong>.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>

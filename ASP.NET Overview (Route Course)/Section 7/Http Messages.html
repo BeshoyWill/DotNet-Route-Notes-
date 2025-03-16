@@ -1,0 +1,80 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>Http Messages</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>Http Messages</h1>
+
+      <div class="ck-content">
+        <h3>🔹 <strong>HTTP Messages</strong></h3>
+        <p>&nbsp;</p>
+        <p>HTTP messages are the <strong>data exchanged</strong> between a <strong>client (browser, mobile app, etc.)</strong> and
+          a <strong>server</strong> over the HTTP protocol. These messages are classified
+          into:</p>
+        <p>&nbsp;</p>
+        <h4>✅ <strong>1. HTTP Request Messages</strong> (Sent from Client to Server)</h4>
+        <p>A request message consists of:</p>
+        <ul>
+          <li><strong>Request Line</strong> – Specifies the HTTP method, URL, and HTTP
+            version.
+            <ul>
+              <li>Example: <code>GET /index.html HTTP/1.1</code>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Headers</strong> – Provide metadata about the request (e.g., content
+            type, authorization).
+            <ul>
+              <li>Example: <code>User-Agent: Mozilla/5.0</code>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Body (Optional)</strong> – Contains <strong>data</strong> sent to
+            the server (e.g., form submissions in <code>POST</code> requests).</li>
+        </ul>
+        <p>🔹 <strong>Common HTTP Methods in Requests</strong>:</p>
+        <ul>
+          <li><strong>GET</strong> – Retrieve data from the server.</li>
+          <li><strong>POST</strong> – Submit data to the server.</li>
+          <li><strong>PUT</strong> – Update a resource on the server.</li>
+          <li><strong>DELETE</strong> – Remove a resource from the server.</li>
+        </ul>
+        <p>&nbsp;</p>
+        <h4>✅ <strong>2. HTTP Response Messages</strong> (Sent from Server to Client)</h4>
+        <p>A response message consists of:</p>
+        <ul>
+          <li><strong>Status Line</strong> – Contains the HTTP version, <strong>status code</strong>,
+            and a status message.
+            <ul>
+              <li>Example: <code>HTTP/1.1 200 OK</code>
+              </li>
+            </ul>
+          </li>
+          <li><strong>Headers</strong> – Provide metadata about the response (e.g., <code>Content-Type</code>, <code>Cache-Control</code>).</li>
+          <li><strong>Body (Optional)</strong> – Contains <strong>the requested data</strong> (e.g.,
+            HTML, JSON, images).</li>
+        </ul>
+        <p>🔹 <strong>Common HTTP Status Codes</strong>:</p>
+        <ul>
+          <li><strong>200 OK</strong> – Request was successful.</li>
+          <li><strong>301 Moved Permanently</strong> – Resource has been permanently
+            moved.</li>
+          <li><strong>400 Bad Request</strong> – Client sent an invalid request.</li>
+          <li><strong>401 Unauthorized</strong> – Authentication required.</li>
+          <li><strong>404 Not Found</strong> – Requested resource does not exist.</li>
+          <li><strong>500 Internal Server Error</strong> – Server encountered an unexpected
+            error.</li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>

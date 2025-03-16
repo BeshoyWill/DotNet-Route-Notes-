@@ -1,0 +1,132 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css">
+    <base target="_parent">
+    <title data-trilium-title>ASP.NET BLAZOR</title>
+  </head>
+  
+  <body>
+    <div class="content">
+       <h1 data-trilium-h1>ASP.NET BLAZOR</h1>
+
+      <div class="ck-content">
+        <h3><br>🔹 <strong>Blazor WebAssembly vs. Blazor Server</strong></h3>
+        <p>Blazor is a framework for building <strong>interactive web UIs</strong> using
+          C# instead of JavaScript. It has two hosting models: <strong>Blazor WebAssembly</strong> and <strong>Blazor Server</strong>.</p>
+        <p>&nbsp;</p>
+        <h3>✅ <strong>Blazor WebAssembly (WASM)</strong></h3>
+        <p>🔹 <strong>Runs on the client-side</strong> → The entire app is downloaded
+          and runs in the user's browser.
+          <br>🔹 <strong>No need for a constant connection to the server</strong> → Works <strong>offline</strong> after
+          loading.
+          <br>🔹 <strong>Fast interactions</strong> (after initial load) → No round trips
+          to the server for UI updates.
+          <br>🔹 <strong>Increased load time</strong> → Since the app and .NET runtime
+          are downloaded first.
+          <br>🔹 <strong>More control over hosting</strong> → Can be deployed as a <strong>static site</strong> (e.g.,
+          GitHub Pages, Firebase Hosting).
+          <br>🔹 <strong>Security concerns</strong> → Since logic runs on the client,
+          additional security measures are needed.</p>
+        <p>&nbsp;</p>
+        <h3>✅ <strong>Blazor Server</strong></h3>
+        <p>🔹 <strong>Runs on the server-side</strong> → UI updates are processed on
+          the <strong>server</strong> and sent to the browser via <strong>SignalR</strong>.
+          <br>🔹 <strong>Lightweight on the client</strong> → Only sends UI updates, reducing
+          browser resource usage.
+          <br>🔹 <strong>Requires a persistent connection</strong> → Needs a <strong>WebSocket connection</strong> (via
+          SignalR), meaning <strong>latency can be an issue</strong>.
+          <br>🔹 <strong>Faster initial load</strong> → No need to download the full app
+          and .NET runtime.
+          <br>🔹 <strong>Better security</strong> → Since logic remains <strong>on the server</strong>,
+          sensitive data is more protected.</p>
+        <p>&nbsp;</p>
+        <h3>🔹 <strong>Key Differences</strong></h3>
+        <figure class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Blazor WebAssembly</th>
+                <th>Blazor Server</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Execution Location</td>
+                <td>Client-side</td>
+                <td>Server-side</td>
+              </tr>
+              <tr>
+                <td>Works Offline</td>
+                <td>✅ Yes</td>
+                <td>❌ No</td>
+              </tr>
+              <tr>
+                <td>Initial Load Time</td>
+                <td>⏳ Longer</td>
+                <td>⚡ Faster</td>
+              </tr>
+              <tr>
+                <td>UI Responsiveness</td>
+                <td>🚀 Faster (after load)</td>
+                <td>🌐 Depends on network</td>
+              </tr>
+              <tr>
+                <td>Connection to Server</td>
+                <td>❌ Not needed</td>
+                <td>✅ Required (SignalR)</td>
+              </tr>
+              <tr>
+                <td>Security</td>
+                <td>⚠ Client-side logic</td>
+                <td>✅ Server-side logic</td>
+              </tr>
+            </tbody>
+          </table>
+        </figure>
+        <p>&nbsp;</p>
+        <h3>🔹 <strong>Which One Should You Choose?</strong></h3>
+        <p>Use <strong>Blazor WebAssembly</strong> if:</p>
+        <ul>
+          <li>You need <strong>offline support</strong>.</li>
+          <li>You want a <strong>pure client-side app</strong> (similar to Angular or
+            React).</li>
+          <li>You are okay with <strong>larger initial load times</strong>.</li>
+        </ul>
+        <p>Use <strong>Blazor Server</strong> if:</p>
+        <ul>
+          <li>You want <strong>faster load times</strong> and can ensure a <strong>good network connection</strong>.</li>
+          <li>Your app requires <strong>high security</strong> (since logic runs on the
+            server).</li>
+          <li>You need to support <strong>low-powered devices</strong> that can't handle
+            heavy client-side execution.</li>
+        </ul>
+        <h3><br>🔹 Server Apps vs. Web Apps</h3>
+        <p>&nbsp;</p>
+        <h4>✅ Server App</h4>
+        <p>Typically runs on a backend server and manages <strong>heavy processing tasks</strong>.</p>
+        <p>Supports <strong>SignalR</strong>, which is used for <strong>real-time communication</strong> (e.g.,
+          notifications and chat apps).</p>
+        <p><strong>SignalR</strong> is built on WebSockets and handles real-time behavior
+          efficiently.</p>
+        <p>However, <strong>network latency</strong> may vary depending on the server
+          location and app architecture.</p>
+        <h4>✅ Web App</h4>
+        <p>Primarily runs on the <strong>client side</strong>, meaning it relies on
+          the user's browser.</p>
+        <p><strong>Blazor WebAssembly</strong> does not use <strong>SignalR</strong> and
+          operates closer to a <strong>client-side application</strong>.</p>
+        <p><strong>Offline Support</strong> → Blazor WebAssembly can work offline.</p>
+        <p>Security considerations → Requires <strong>additional configurations</strong> to
+          enhance security.</p>
+        <p><strong>Lightweight &amp; Fast</strong> → Since Blazor WebAssembly runs
+          in the browser, it reduces the need for constant server interactions.</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </body>
+
+</html>
