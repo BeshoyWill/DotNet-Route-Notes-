@@ -9,7 +9,7 @@
 				"Tjj14vhYG4Am"
 			],
 			"title": "ASP.NET Overview (Route Course)",
-			"notePosition": 30,
+			"notePosition": 40,
 			"prefix": null,
 			"isExpanded": true,
 			"type": "text",
@@ -28,38 +28,13 @@
 					"title": "Section (1)",
 					"notePosition": 20,
 					"prefix": null,
-					"isExpanded": false,
+					"isExpanded": true,
 					"type": "text",
 					"mime": "text/html",
 					"attributes": [],
 					"format": "html",
 					"dirFileName": "Section (1)",
 					"children": [
-						{
-							"isClone": false,
-							"noteId": "TawYFwGUMo15",
-							"notePath": [
-								"Tjj14vhYG4Am",
-								"fQ0A4gsGNAFg",
-								"TawYFwGUMo15"
-							],
-							"title": "Screenshot 2025-03-16 034940.png",
-							"notePosition": 10,
-							"prefix": null,
-							"isExpanded": false,
-							"type": "image",
-							"mime": "image/jpg",
-							"attributes": [
-								{
-									"type": "label",
-									"name": "originalFileName",
-									"value": "Screenshot 2025-03-16 034940.png",
-									"isInheritable": false,
-									"position": 1000
-								}
-							],
-							"dataFileName": "Screenshot 2025-03-16 034940.p"
-						},
 						{
 							"isClone": false,
 							"noteId": "5V3LIfShNP3o",
